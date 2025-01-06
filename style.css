@@ -101,7 +101,9 @@ body {
     border-radius: 5px;
 }
 
-#category-popup-container {
+/* Popup Styles */
+#category-popup-container,
+#stage-popup-container {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
@@ -115,9 +117,25 @@ body {
     color: #fff;
 }
 
-.category-popup {
+.category-popup,
+.stage-popup {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+}
+
+#next-stage-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-stage-btn:hover {
+    background-color: #45a049;
 }
